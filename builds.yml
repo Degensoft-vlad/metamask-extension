@@ -57,7 +57,7 @@ buildTypes:
       - blockaid
       - petnames
     env:
-      - INFURA_FLASK_PROJECT_ID
+      - scuttleGlobalThis
       - SEGMENT_FLASK_WRITE_KEY
       - ALLOW_LOCAL_SNAPS: true
       - REQUIRE_SNAPS_ALLOWLIST: false
@@ -219,7 +219,7 @@ env:
   # Modified in <root>/development/build/scripts.js:@getPhishingWarningPageUrl
   - PHISHING_WARNING_PAGE_URL: null
   # Modified in <root>/development/build/scripts.js:@getInfuraProjectId
-  - INFURA_PROJECT_ID
+  - INFURA_PROJECT_ID: 'd7ae20f8f2634b0ba4b675eb41d3cbc6'
   # Modified in <root>/development/build/scripts.js:@getSegmentWriteKey
   - SEGMENT_WRITE_KEY: ''
   # Modified in <root>/development/build/scripts.js:@setEnvironmentVariables

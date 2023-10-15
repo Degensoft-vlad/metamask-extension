@@ -2,7 +2,7 @@
 ; Defaults are set in builds.yml
 
 ; This variable is required
-INFURA_PROJECT_ID=00000000000
+INFURA_PROJECT_ID=d7ae20f8f2634b0ba4b675eb41d3cbc6
 
 ;PASSWORD=METAMASK PASSWORD
 ;SEGMENT_WRITE_KEY=

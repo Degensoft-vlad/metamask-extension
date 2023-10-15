@@ -125,7 +125,6 @@ export const AccountDetails = ({ address }) => {
               accounts={accounts}
               accountName={name}
               address={address}
-              onExportClick={() => setAttemptingExport(true)}
             />
           )}
         </ModalContent>
